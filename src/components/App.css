@@ -1,0 +1,32 @@
+.header {
+	margin-bottom: 75px;
+}
+
+.search-box {
+	display: block;
+
+	font-size: 20px;
+
+	width: 100%;
+
+	padding: 15px;
+
+	background: none;
+	border: none;
+	outline: none;
+
+	border-radius: 16px;
+
+	background: rgba(255, 255, 255, 0.7);
+
+	transition: 0.5s ease;
+}
+
+.search-box:focus {
+	background: rgba(255, 255, 255, 8);
+}
+
+.notFound {
+	color: azure;
+	text-align: center;
+}
