@@ -1,0 +1,28 @@
+.weather-box {
+	text-align: center;
+}
+
+.temp {
+	color: #fff;
+	font-size: 104px;
+	font-weight: 900;
+
+	border-radius: 16px;
+	background: rgba(255, 255, 255, 0.2);
+
+	display: inline-block;
+	position: relative;
+
+	margin: 40px auto;
+	padding: 15px 25px;
+
+	text-shadow: 3px 6px rgba(50, 50, 70, 0.3);
+}
+
+.weather {
+	color: #fff;
+	font-size: 48px;
+	font-weight: 700;
+
+	text-shadow: 3px 6px rgba(50, 50, 70, 0.15);
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Location } from './Location';
+import { Weather } from './Weather';
 import './App.css';
 
 interface Api {
@@ -43,6 +44,7 @@ export function App() {
 				{weather && weather.cod === 200 ? (
 					<>
 						<Location weather={weather} />
+						<Weather weather={weather} />
 					</>
 				) : (
 					<h2 className='notFound'>No hay resultados</h2>
