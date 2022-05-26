@@ -1,4 +1,7 @@
 .header {
+	display: flex;
+	justify-content: center;
+	
 	margin-bottom: 75px;
 }
 
@@ -7,7 +10,7 @@
 
 	font-size: 20px;
 
-	width: 100%;
+	width: 70%;
 
 	padding: 15px;
 
@@ -29,4 +32,10 @@
 .notFound {
 	color: azure;
 	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.search-box {
+		width: 100%;
+	}
 }
