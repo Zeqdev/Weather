@@ -1,0 +1,36 @@
+.location_box {
+	text-align: center;
+}
+
+.location {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 500;
+
+	margin-bottom: 5px;
+
+	text-shadow: 3px 3px rgba(255, 255, 255, 0.1);
+}
+
+.date {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+
+	text-shadow: 3px 3px rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 576px) {
+	.location_box {
+		width: 100%;
+	}
+
+	.location {
+		font-size: 24px;
+	}
+
+	.date {
+		font-size: 16px;
+	}
+}
